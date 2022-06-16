@@ -1,3 +1,8 @@
+body{
+    margin:auto 0;
+    padding:0;
+}
+
 label{
     
 }
@@ -5,9 +10,11 @@ label{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 480px;
+    padding-right: 480px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
+    border-color: #cccccc;
 }
 
 li {
@@ -16,6 +23,7 @@ li {
 
 #nameID{
     display: block;
+    background-color: #4AAAA5;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -24,16 +32,13 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #777777;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #04AA6D;
+#mainBody{
+    background-color:#ffffff;
+    border-color: #dddddd;
 }
