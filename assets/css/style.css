@@ -54,3 +54,11 @@ h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4AAAA5;
 }
+
+hr{
+    height: 2.5px;
+    border-width: 0;
+    color: lightgray;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
