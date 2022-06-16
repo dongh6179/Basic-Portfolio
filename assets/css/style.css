@@ -1,7 +1,7 @@
 body{
     margin:auto 0;
     padding:0;
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/y-so-serious-white.png");
+    background-image: url(../images/y-so-serious-white.png);
 }
 
 header{
@@ -10,17 +10,12 @@ header{
     border-color: #cccccc;
 }
 
-label{
-    
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding-left: 480px;
     padding-right: 480px;
     overflow: hidden;
-    height:100px;
 }
 
 li {
@@ -50,4 +45,11 @@ li a {
     background-color:#ffffff;
     border-color: #dddddd;
     font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+    margin: 50px 480px 20px 480px;
+    padding:15px;
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4AAAA5;
 }
