@@ -1,6 +1,7 @@
 body{
     margin:auto 0;
     padding:0;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/y-so-serious-white.png");
 }
 
 header{
@@ -19,6 +20,7 @@ ul {
     padding-left: 480px;
     padding-right: 480px;
     overflow: hidden;
+    height:100px;
 }
 
 li {
@@ -30,13 +32,15 @@ li {
     background-color: #4AAAA5;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 20px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 li a {
     display: block;
-    color: #777777;;
+    color: #A4A4A4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
