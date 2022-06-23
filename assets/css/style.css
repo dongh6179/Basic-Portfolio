@@ -25,23 +25,6 @@ li {
     float: right;
 }
 
-@media screen and (max-width: 1000px) {
-    li{
-        float: none;
-        width: 100%;
-    }
-    ul{
-        width: 100%;
-        margin: auto;
-    }
-    #nameID{
-        margin-bottom: 10px;
-    }
-    #mainBody{
-        width: 300px;
-    }
-}
-
 #nameID{
     display: block;
     background-color: #4AAAA5;
@@ -140,4 +123,34 @@ input[type=submit] {
 #filler{
     padding:50px;
     font-size:1px;
+}
+
+@media screen and (max-width: 1000px) {
+    li {
+        float: none;
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+        margin: auto;
+    }
+
+    #nameID {
+        margin-bottom: 10px;
+    }
+
+    #mainBody {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .image {
+        display: block;
+        margin: 10px 20px 10px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
