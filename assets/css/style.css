@@ -125,6 +125,11 @@ input[type=submit] {
     font-size:1px;
 }
 
+#message{
+    width:880px; 
+    height:200px;
+}
+
 @media screen and (max-width: 1000px) {
     li {
         float: none;
@@ -145,6 +150,9 @@ input[type=submit] {
     }
     h1{
         text-align:center;
+    }
+    #message{
+        width:100%;
     }
 }
 
