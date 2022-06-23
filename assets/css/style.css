@@ -25,6 +25,23 @@ li {
     float: right;
 }
 
+@media screen and (max-width: 1000px) {
+    li{
+        float: none;
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+        margin: auto;
+    }
+    #nameID{
+        margin-bottom: 10px;
+    }
+    #mainBody{
+        width: 300px;
+    }
+}
+
 #nameID{
     display: block;
     background-color: #4AAAA5;
