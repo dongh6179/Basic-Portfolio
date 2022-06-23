@@ -143,6 +143,9 @@ input[type=submit] {
     #mainBody {
         width: 80%;
     }
+    h1{
+        text-align:center;
+    }
 }
 
 
