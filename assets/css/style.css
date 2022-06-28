@@ -86,6 +86,7 @@ hr{
     width: 100%;
     text-align: center;
     color:lightgray;
+    vertical-align: middle;
 }
 
 #accent{
