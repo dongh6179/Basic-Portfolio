@@ -121,6 +121,11 @@ input[type=submit] {
     margin: 10px 20px 10px 0px;
 }
 
+img{
+    width: 250px;
+    height: 200px;
+}
+
 #filler{
     padding:50px;
     font-size:1px;
